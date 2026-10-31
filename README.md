@@ -64,5 +64,145 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-twtapi-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://twtapi.com/
+Access public Twitter/X data through simple APIs for tweet search, user lookup, timelines, monitoring, and AI workflows. TwtAPI gives developers and AI teams a simple way to access public Twitter/X data for search, user lookup, timelines, monitoring, and research without maintaining fragile scrapers.
+
+**Areas:** Twitter · X · API · Data · Search · Monitoring · AI
+
+## twtapi-com on APIs.io
+
+Everything profiled for twtapi-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/twtapi-com/](https://apis.io/providers/twtapi-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [twtapi-com Admin API](https://apis.io/apis/twtapi-com/twtapi-com-admin-api/) — The Admin API from twtapi-com — 18 operation(s) for admin.
+- [twtapi-com Agent API](https://apis.io/apis/twtapi-com/twtapi-com-agent-api/) — The Agent API from twtapi-com — 2 operation(s) for agent.
+- [twtapi-com Auth API](https://apis.io/apis/twtapi-com/twtapi-com-auth-api/) — The Auth API from twtapi-com — 12 operation(s) for auth.
+- [twtapi-com Captcha API](https://apis.io/apis/twtapi-com/twtapi-com-captcha-api/) — The Captcha API from twtapi-com — 1 operation(s) for captcha.
+- [twtapi-com Myapi API](https://apis.io/apis/twtapi-com/twtapi-com-myapi-api/) — The Myapi API from twtapi-com — 12 operation(s) for myapi.
+- [twtapi-com Payment API](https://apis.io/apis/twtapi-com/twtapi-com-payment-api/) — The Payment API from twtapi-com — 4 operation(s) for payment.
+- [twtapi-com Twitter API](https://apis.io/apis/twtapi-com/twtapi-com-twitter-api/) — The Twitter API from twtapi-com — 1 operation(s) for twitter.
+- [twtapi-com TwtAPI Backend API](https://apis.io/apis/twtapi-com/twtapi-com-twtapi-backend-api/) — The TwtAPI Backend API from twtapi-com — 1 operation(s) for twtapi backend.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Twtapi Com Agentic Access](https://apis.io/agentic-access/twtapi-com/twtapi-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AdminPlanUpsert](https://apis.io/schemas/twtapi-com/twtapi-com-admin-plan-upsert/)
+- [AdminUserPlanUpdate](https://apis.io/schemas/twtapi-com/twtapi-com-admin-user-plan-update/)
+- [AgentInvokeRequest](https://apis.io/schemas/twtapi-com/twtapi-com-agent-invoke-request/)
+- [CreateCheckoutRequest](https://apis.io/schemas/twtapi-com/twtapi-com-create-checkout-request/)
+- [CreateOrderRequest](https://apis.io/schemas/twtapi-com/twtapi-com-create-order-request/)
+- [ResetPasswordRequest](https://apis.io/schemas/twtapi-com/twtapi-com-reset-password-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Twtapi Com Context](https://apis.io/jsonld/twtapi-com/twtapi-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [twtapi-com API Rules](https://apis.io/rules/twtapi-com/twtapi-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Twtapi Com Authentication](https://apis.io/security/twtapi-com/twtapi-com-authentication/)
+- [Twtapi Com Domain Security](https://apis.io/security/twtapi-com/twtapi-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Twtapi Com Scopes](https://apis.io/scopes/twtapi-com/twtapi-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Twtapi Com Plans Pricing](https://apis.io/plans/twtapi-com/twtapi-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Twtapi Com Rate Limits](https://apis.io/rate-limits/twtapi-com/twtapi-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://twtapi.com/)
+- [Documentation](https://www.twtapi.com/en/docs/)
+- [Getting started](https://twtapi.com/zh/case-studies/how-to-monitor-twitter-for-onboarding-risk)
+- [Pricing](https://www.twtapi.com/en/pricing/)
+- [Terms of service](https://twtapi.com/zh/terms/)
+- [Privacy policy](https://twtapi.com/zh/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 58.9** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 53.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 73.2 |
+
+**Agent readiness 36.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/twtapi-com/](https://apis.io/providers/twtapi-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for twtapi-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/twtapi-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
